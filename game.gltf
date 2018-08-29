@@ -1,212 +1,204 @@
 {
-  "asset": {
-    "generator": "COLLADA2GLTF",
-    "version": "2.0"
-  },
-  "scene": 0,
-  "scenes": [
-    {
-      "nodes": [
-        0
-      ]
-    }
-  ],
-  "nodes": [
-    {
-      "children": [
-        2,
-        1
-      ],
-      "matrix": [
-        0.009999999776482582,
-        0,
-        0,
-        0,
-        0,
-        0.009999999776482582,
-        0,
-        0,
-        0,
-        0,
-        0.009999999776482582,
-        0,
-        0,
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "matrix": [
-        -0.7289686799049377,
-        0,
-        -0.6845470666885376,
-        0,
-        -0.4252049028873444,
-        0.7836934328079224,
-        0.4527972936630249,
-        0,
-        0.5364750623703003,
-        0.6211478114128113,
-        -0.571287989616394,
-        0,
-        400.1130065917969,
-        463.2640075683594,
-        -431.0780334472656,
-        1
-      ],
-      "camera": 0
-    },
-    {
-      "mesh": 0
-    }
-  ],
-  "cameras": [
-    {
-      "perspective": {
-        "aspectRatio": 1.5,
-        "yfov": 0.6605925559997559,
-        "zfar": 10000,
-        "znear": 1
-      },
-      "type": "perspective"
-    }
-  ],
-  "meshes": [
-    {
-      "primitives": [
+    "accessors" : [
         {
-          "attributes": {
-            "NORMAL": 1,
-            "POSITION": 2,
-            "TEXCOORD_0": 3
-          },
-          "indices": 0,
-          "mode": 4,
-          "material": 0,
-          "extensions": {
-            "KHR_draco_mesh_compression": {
-              "bufferView": 0,
-              "attributes": {
-                "NORMAL": 0,
-                "POSITION": 1,
-                "TEXCOORD_0": 2
-              }
-            }
-          }
-        }
-      ],
-      "name": "LOD3spShape"
-    }
-  ],
-  "accessors": [
-    {
-      "componentType": 5123,
-      "count": 12636,
-      "max": [
-        2398
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "componentType": 5126,
-      "count": 2399,
-      "max": [
-        0.9995989799499512,
-        0.999580979347229,
-        0.9984359741210938
-      ],
-      "min": [
-        -0.9990839958190918,
-        -1,
-        -0.9998319745063782
-      ],
-      "type": "VEC3"
-    },
-    {
-      "componentType": 5126,
-      "count": 2399,
-      "max": [
-        96.17990112304688,
-        163.97000122070312,
-        53.92519760131836
-      ],
-      "min": [
-        -69.29850006103516,
-        9.929369926452637,
-        -61.32819747924805
-      ],
-      "type": "VEC3"
-    },
-    {
-      "componentType": 5126,
-      "count": 2399,
-      "max": [
-        0.9833459854125975,
-        0.9800369739532472
-      ],
-      "min": [
-        0.026409000158309937,
-        0.01996302604675293
-      ],
-      "type": "VEC2"
-    }
-  ],
-  "materials": [
-    {
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 46356,
+            "max" : [
+                14555
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
         },
-        "metallicFactor": 0
-      },
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "name": "blinn3-fx"
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0
-    }
-  ],
-  "images": [
-    {
-      "uri": "DuckCM.png"
-    }
-  ],
-  "samplers": [
-    {
-      "magFilter": 9729,
-      "minFilter": 9986,
-      "wrapS": 10497,
-      "wrapT": 10497
-    }
-  ],
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteOffset": 0,
-      "byteLength": 18884
-    }
-  ],
-  "buffers": [
-    {
-      "byteLength": 18884,
-      "uri": "0.bin"
-    }
-  ],
-  "extensionsRequired": [
-    "KHR_draco_mesh_compression"
-  ],
-  "extensionsUsed": [
-    "KHR_draco_mesh_compression"
-  ]
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 14556,
+            "max" : [
+                0.9424954056739807,
+                0.8128451108932495,
+                0.900973916053772
+            ],
+            "min" : [
+                -0.9474585652351379,
+                -1.18715500831604,
+                -0.9009949564933777
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 14556,
+            "max" : [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 14556,
+            "max" : [
+                0.9999759793281555,
+                1.998665988445282
+            ],
+            "min" : [
+                0.002448640065267682,
+                1.0005531199858524
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 92712,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 174672,
+            "byteOffset" : 92712,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 174672,
+            "byteOffset" : 267384,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 116448,
+            "byteOffset" : 442056,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 558504,
+            "uri" : "DamagedHelmet.bin"
+        }
+    ],
+    "images" : [
+        {
+            "uri" : "Default_albedo.jpg"
+        },
+        {
+            "uri" : "Default_metalRoughness.jpg"
+        },
+        {
+            "uri" : "Default_emissive.jpg"
+        },
+        {
+            "uri" : "Default_AO.jpg"
+        },
+        {
+            "uri" : "Default_normal.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "emissiveTexture" : {
+                "index" : 2
+            },
+            "name" : "Material_MR",
+            "normalTexture" : {
+                "index" : 4
+            },
+            "occlusionTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "mesh_helmet_LP_13930damagedHelmet",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "node_damagedHelmet_-6514",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        }
+    ]
 }
