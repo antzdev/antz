@@ -201,13 +201,14 @@
             "source" : 4
         }
     ],
-     "cameras": [
+    "camera" : 0,
+    "cameras": [
         {
             "perspective": {
                 "aspectRatio": 1.5,
-                "yfov": 0.6605925559997559,
-                "zfar": 10000.0,
-                "znear": 1.0
+                "yfov": 45,
+                "zfar": 20,
+                "znear": 0.25
             },
             "type": "perspective"
         }
