@@ -164,7 +164,8 @@
                 0.0,
                 -0.0,
                 0.7071068286895752
-            ]
+            ],
+            "camera": 0
         }
     ],
     "samplers" : [
@@ -201,7 +202,6 @@
             "source" : 4
         }
     ],
-    "camera" : 0,
     "cameras": [
         {
             "perspective": {
