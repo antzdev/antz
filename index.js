@@ -5,4 +5,6 @@ const port= process.env.PORT || 3000;
 
 app.use('/', express.static(__dirname));
 
+express.mime.type['bin'] = 'application/octet-stream';
+
 app.listen(port);
